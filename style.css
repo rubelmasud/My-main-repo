@@ -1,0 +1,102 @@
+.hed header ul{
+   position: absolute; 
+   display: inline;
+   box-sizing: border-box;
+   /* background-color: rgba(0, 217, 255, 0.256); */
+   width: 100%;
+   height: 30px;
+   text-align: right;
+   padding-right: 30px;
+}
+body{
+    /* background-color: rgba(0, 255, 213, 0.361); */
+    background-image: url(m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hed header ul li{
+    display: inline;
+    padding: 20px;
+   font-size: 22px;
+   text-align: center;
+  
+}
+.hed header ul li a{
+    text-decoration: none;color: black;
+   font-weight: 400;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border: 1px solid black;
+   border-radius: 15px;
+   background-color: rgba(0, 255, 255, 0.479);
+}
+.hed header ul li button{
+    height: 27px;
+    font-size:20px ;
+    letter-spacing: 2px;
+    font-weight: bold;
+  background-color: rgba(39, 222, 209, 0.404);
+}
+.hed header ul li button:hover{
+    background-color: transparent;
+    color: rgba(23, 85, 193, 0.84);
+    border-radius: 18px;
+    box-shadow: 5px 5px 5px 5px rgba(29, 31, 30, 0.534);
+}
+.hed header ul li a:hover{
+    color: wheat;
+    background-color: rgba(0, 0, 0, 0.482);
+    text-shadow: 5px 5px 5px 5px rgb(76, 132, 28);
+    border-radius: 10px;
+    
+}
+.foot{
+    position: absolute;
+    bottom: 10%;
+    margin-left: 30px;
+}
+.foot h3{
+    color: wheat;
+    letter-spacing: 4px;
+    font-style: italic;
+    font-size: 20px;
+    display: inline-block;
+}
+.foot h3:hover{
+    color: red;
+    text-shadow: 4px 4px 4px black ;
+}
+span{
+    font-size: 60px;
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span:hover{
+    color: cyan;
+    text-shadow: 5px 5px 5px greenyellow;
+}
+.foot h1{
+    color: white;
+}
+.foot p{
+    color: red;
+   letter-spacing: 2px;
+   font-style: italic;
+}
+.down{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 60px;
+    margin-right: 30px;
+}
+.down a button{
+    font-size: 20px;
+    background-color: darkcyan;
+    border: 2px solid green;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px rgba(255, 0, 0, 0.582) ;
+}
+.down a button:hover{
+    background-color: black;
+}
